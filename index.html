@@ -9,7 +9,8 @@
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="header logo" class="logo" />
+        <div class="container">
+<p class="logo">Header Logo</p>
       <nav class="menu">
         <ul>
           <li><a href="#" target="_blank">LINK 1</a></li>
@@ -17,18 +18,28 @@
           <li><a href="#" target="_blank">LINK 3</a></li>
         </ul>
       </nav>
-    </header>
+    </div>
+    </header><!--HEADER-->
     <section class="hero-section">
-      <h1 class="main-title">This website is awesome</h1>
-      <p>
-        this website has some subtext that goes here underr the main title. It's
-        a smaller font and the color is lower contrast
-      </p>
-      <a href="#" class="sign-up-btn">Sign Up</a>
-      <img src="" alt="Landing Image" class="landing-img" />
+        <div class="container">
+      <div class="hero-text">
+        <h1 class="hero-title">This website is awesome</h1>
+        <p>
+          this website has some subtext that goes here underr the main title.
+          It's a smaller font and the color is lower contrast
+        </p>
+        <a href="#" class="sign-up-btn">Sign Up</a>
+      </div>
+      <img
+        src="https://unsplash.it/400/300"
+        alt="Hero Image"
+        class="hero-img"
+      />
+    </div>
     </section>
     <!--hero-->
     <section class="info-section">
+        <div class="container">
       <h2 class="random-sect">Some random information</h2>
       <div class="info-card">
         <img src="https://unsplash.it/200/200" alt="unsplash random image" />
@@ -54,28 +65,35 @@
           this is some subtext under an illustration or image
         </p>
       </div>
-    </section><!--RANDOM SECTION-->
-    <section class="testimonial-sect">
-      <p class="testimonial">
-        <em
-          >This is an inspiring quote, or a testimonial from a customer. Maybe
+    </div>
+    </section>
+    <!--INFO SECTION-->
+    <section class="quote-section">
+        <div class="container">
+      <p class="quote-text">
+           This is an inspiring quote, or a testimonial from a customer. Maybe
           it's just filling up space, or maybe people will actually read it. Who
-          knows? All I know is that it looks nice.</em
-        >
+          knows? All I know is that it looks nice.
       </p>
       <p class="testimonial-author">-A.N. Other</p>
+    </div>
     </section>
-    <!--TESTIMONIAL-->
+    <!--QUOTE-->
     <section class="cta">
+        <div class="container">
       <h3>Call to Action! It's Time!</h3>
       <p class="sign-up">
         Sign up for our product by clicking that button right over there!
       </p>
       <a href="#" class="sign-up-btn"></a>
+    </div>
     </section>
     <!--CTA-->
     <footer>
+        <div class="container"> 
       <p class="footer">Footer</p>
+    </div>
     </footer>
+</div><!--container-->
   </body>
 </html>
